@@ -1,8 +1,8 @@
 {
   "name": "react-ts-cutout",
-  "version": "0.0.9",
+  "version": "0.0.9g",
   "description": "React cutout component written in TypeScript with React 18",
-  "main": "dis/Cutout.js",
+  "main": "dist/Cutout.js",
   "types": "dist/Cutout.d.ts",
   "repository": {
     "type": "git",

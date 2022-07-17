@@ -1,6 +1,6 @@
 {
   "name": "react-ts-cutout",
-  "version": "0.1.0",
+  "version": "0.1.0a",
   "description": "React cutout component written in TypeScript with React 18",
   "main": "dist/Cutout.js",
   "types": "dist/Cutout.d.ts",

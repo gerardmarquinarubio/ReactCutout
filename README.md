@@ -2,12 +2,12 @@
 
 ![](https://img.shields.io/badge/-typescript-blue)
 ![](https://img.shields.io/badge/react-v18.2-%2361DBFB)
-![https://github.com/gerardmarquinarubio/ReactCutout](https://img.shields.io/badge/version-v0.0.9-green)
+![https://github.com/gerardmarquinarubio/ReactCutout](https://img.shields.io/badge/version-v0.1.0-green)
 ![https://www.npmjs.com/package/react-ts-cutout](https://img.shields.io/badge/package-npm-red)
 
 ![](/usage.png)
 
-React Cutout is a simple component that allows you to create a nice title cutout effect by simply invoking the component. [Try on codesandbox.io](https://codesandbox.io/s/).
+React Cutout is a simple component that allows you to create a nice title cutout effect by simply invoking the component. [Try on codesandbox.io](https://codesandbox.io/s/competent-herschel-v5snmd?file=/src/App.js).
 
 ## Installation
 

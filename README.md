@@ -1,6 +1,6 @@
 # React Cutout
 
-![](https://img.shields.io/badge/-typescript-blue) 
+![](https://img.shields.io/badge/-typescript-blue)
 ![](https://img.shields.io/badge/react-v18.2-%2361DBFB)
 ![https://github.com/gerardmarquinarubio/ReactCutout](https://img.shields.io/badge/version-v0.0.9-green)
 ![https://www.npmjs.com/package/react-ts-cutout](https://img.shields.io/badge/package-npm-red)
@@ -18,18 +18,15 @@ npm i react-ts-cutout
 ## Example usage
 
 ```tsx
-import Cutout from 'react-ts-cutout';
+import Cutout from "react-ts-cutout";
 
 export default function myComponent() {
-    return (
-        <Cutout
-        src="/image.jpg"
-        backgroundColor="white"
-        >
-        <h1>Nice titles</h1>
-        <h2>Made simple</h2>
-        </Cutout>
-    )
+  return (
+    <Cutout src="/image.jpg" backgroundColor="white">
+      <h1>Nice titles</h1>
+      <h2>Made simple</h2>
+    </Cutout>
+  );
 }
 ```
 
@@ -39,6 +36,10 @@ export default function myComponent() {
 
 Source of the background image. **Required**
 
-> backgroundColor : 'white' | 'black'
+> backgroundColor : 'white' | 'black' | string;
 
-Color of the background. **Required**. *Support for hex colors on the future*.
+Color of the background. **Required**. Accepts any CSS color notation.
+
+> mode?: Property.MixBlendMode;
+
+Blend mode CSS property. Defaults to 'darken' or 'lighten' depending on backgroundColor.

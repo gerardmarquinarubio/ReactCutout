@@ -1,6 +1,6 @@
 {
   "name": "react-ts-cutout",
-  "version": "0.0.9g",
+  "version": "0.1.0",
   "description": "React cutout component written in TypeScript with React 18",
   "main": "dist/Cutout.js",
   "types": "dist/Cutout.d.ts",
@@ -26,6 +26,10 @@
   },
   "homepage": "https://github.com/gerardmarquinarubio/ReactCutout#readme",
   "devDependencies": {
+    "@types/color": "^3.0.3",
     "@types/react": "^18.0.14"
+  },
+  "dependencies": {
+    "color": "^4.2.3"
   }
 }

@@ -4,7 +4,7 @@ import { Property } from 'csstype';
 
 import Color from 'color';
 
-import styles from './Cutout.module.css';
+import styles from './Cutout.css';
 
 export interface ICutoutProps extends PropsWithChildren {
     src : string;

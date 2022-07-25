@@ -22,7 +22,7 @@
   },
   "scripts": {
     "clean": "rm -rf dist",
-    "prepublish": "tsc && cp Cutout.module.css dist/"
+    "prepublish": "tsc && cp Cutout.css dist/"
   },
   "homepage": "https://github.com/gerardmarquinarubio/ReactCutout#readme",
   "devDependencies": {

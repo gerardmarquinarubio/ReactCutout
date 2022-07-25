@@ -1,6 +1,6 @@
 {
   "name": "react-ts-cutout",
-  "version": "0.1.1",
+  "version": "0.1.1b",
   "description": "React cutout component written in TypeScript with React 18",
   "main": "dist/Cutout.js",
   "types": "dist/Cutout.d.ts",
@@ -22,7 +22,7 @@
   },
   "scripts": {
     "clean": "rm -rf dist",
-    "prepublish": "tsc && cp Cutout.css dist/"
+    "prepublish": "tsc"
   },
   "homepage": "https://github.com/gerardmarquinarubio/ReactCutout#readme",
   "devDependencies": {
